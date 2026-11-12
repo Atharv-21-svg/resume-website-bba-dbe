@@ -1,0 +1,44 @@
+DESIGN RATIONALE - RESUME WEBSITE
+
+Design direction
+I chose a minimal editorial style because I wanted the website to feel professional,
+calm and personal rather than like a generic template. The design uses generous white
+space, restrained colour and clear section headings so that a reader can scan my
+background quickly.
+
+Colour palette
+The warm ivory background (#F5F2EB) is softer than pure white and makes long sections
+comfortable to read. Charcoal (#24251F) is used for the main text because it provides
+strong contrast. Muted olive (#788267) is the accent colour; it adds personality without
+distracting from the information. Soft sand and pale grey-green surfaces distinguish
+cards and featured sections while keeping the palette consistent.
+
+Fonts and text hierarchy
+I used Georgia for large headings and selected project titles to give the page an
+editorial feel. Arial is used for paragraphs, labels and navigation because it is simple
+and readable on most computers. Larger headings, smaller uppercase labels and short
+paragraphs create a clear visual hierarchy.
+
+Layout and CSS concepts
+The navigation bar uses Flexbox to keep the site name and section links aligned. The
+header uses sticky positioning so the navigation remains available while scrolling.
+Flexbox is also used to arrange the hero section, project cards, timelines and contact
+area. Margins, padding, borders and line-height create consistent spacing. Hover styles
+provide small visual feedback on links and project cards. Media queries reorganise the
+layout on smaller screens so that the content remains readable on phones.
+
+HTML structure and selectors
+The page is divided into semantic HTML sections such as header, nav, main, section,
+article and footer. Element selectors set general defaults, class selectors apply
+reusable styles to components, and ID selectors support section navigation and
+scroll positioning. This keeps the HTML organised and allows most visual changes to
+be made in the separate style.css file.
+
+Sections included
+The website contains an introduction, an about section, education, selected projects,
+writing and research, leadership and volunteering, recognition, and contact details.
+The order places the most relevant current information near the top while still giving
+a reader a fuller picture of my academic and extracurricular background.
+
+Overall, the design aims to make the resume easy to navigate, visually consistent and
+usable on both desktop and mobile screens.
